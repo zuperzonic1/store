@@ -1,0 +1,75 @@
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+
+}
+
+.parallax::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari */
+}
+
+.object-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: none;
+  justify-content: center;
+}
+
+
+.speed-2 {
+  transform: translateZ(-2px) scale(3);
+}
+
+.speed-4 {
+  transform: translateZ(-4px) scale(5);
+}
+
+.speed-5 {
+  transform: translateZ(-5px) scale(6);
+}
+
+.object {
+  margin-left: 250px;
+  height: 100px;
+  width: 100px;
+}
+
+
+.object-2 {
+  margin-left: 100px;
+  margin-top: 900px;
+  background: #00adb5;
+  box-shadow:
+  0 0 2px #fff,
+  0 0 4px #fff,
+  0 0 6px #fff,
+  0 0 10px #00adb5,
+  0 0 45px #00adb5,
+  0 0 55px #00adb5,
+  0 0 70px #00adb5,
+  0 0 80px #00adb5;
+}
+
+
+.object-4 {
+  margin-left: 250px;
+  margin-top: 900px;
+  background: green;
+}
+
+.object-5 {
+  margin-left: 400px;
+  margin-top: 900px;
+  background: pink;
+}
+
+.page-content {
+  height: 6000px;
+}
